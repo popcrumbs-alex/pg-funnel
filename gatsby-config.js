@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `gold-2ct-order-funnel`,
-    siteUrl: `https://offers.lucianarose.store/`,
+    title: `pg-custom-funnels`,
+    siteUrl: `http://localhost:8000/`,
   },
   plugins: [
     {
@@ -26,7 +26,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/lulu-favicon.png",
+        icon: "./src/images/pglogo.png",
       },
     },
     "gatsby-plugin-sharp",

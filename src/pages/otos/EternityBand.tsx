@@ -1,7 +1,5 @@
 import React, { FC, useEffect } from "react";
 import styled, { createGlobalStyle } from "styled-components";
-import OtoReviews from "../../components/otos/oto2/OtoReviews";
-import OtoScreen2 from "../../components/otos/oto2/OtoScreen2";
 import Alert from "../../reusable/Alert";
 import HelmetWrapper from "../../layout/HelmetWrapper";
 const Main = styled.main``;
@@ -34,8 +32,6 @@ const EternityBand: FC = () => {
       <HelmetWrapper pageTitle="Eternity Band" efScript="" />
       <Globalstyle />
       <Alert />
-      <OtoScreen2 />
-      <OtoReviews />
     </Main>
   );
 };

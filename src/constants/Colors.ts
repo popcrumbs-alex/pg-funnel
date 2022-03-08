@@ -10,14 +10,8 @@ export default {
   danger: "#D62246",
 };
 
-export const silverStudsColors = {
-  main: "#fd5c56",
-  text: "#fefefe",
-  danger: "#D62246",
-};
-
-export const victoriaColors = {
-  main: "#2e82ff",
+export const GoldBarsColors = {
+  main: "#b22234",
   text: "#fefefe",
   danger: "#D62246",
 };

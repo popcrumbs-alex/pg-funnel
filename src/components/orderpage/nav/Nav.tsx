@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useContext } from "react";
-import { ThemeContext } from "../../../pages";
+import { ThemeContext } from "../../../pages/gold-bars/order/OrderPage";
 import { StaticImage } from "gatsby-plugin-image";
 import { FC } from "react";
 import { Theme } from "../../../constants/Colors";
@@ -69,19 +69,20 @@ const Nav: FC = () => {
   return (
     <NavContainer color={context.main}>
       <Content>
-        <ImageContainer>
-          <StaticImage
-            src="../../../images/lululogo.png"
-            alt="logo"
-            placeholder="blurred"
-            objectFit="contain"
-            imgStyle={{ width: "100%" }}
-          />
-        </ImageContainer>
         <Column>
-          <Heading color={context.text}>Need Support?</Heading>
-          <Text color={context.text}>support@lulurosecouture.com</Text>
-          <Text color={context.text}>(516) 289-9264</Text>
+          <Heading
+            color="#fff"
+            style={{
+              fontWeight: "300",
+              fontSize: "1.5rem",
+              textAlign: "center",
+              fontStyle: "italic",
+            }}
+          >
+            As of TODAY we still have golden commemorative Donald J Trump bars
+            in stock. Upon placing your order below your item will ship within
+            24 hours
+          </Heading>
         </Column>
       </Content>
     </NavContainer>

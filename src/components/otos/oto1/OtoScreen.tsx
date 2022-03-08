@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 import styled from "styled-components";
 import Timer from "../../../reusable/Timer";
-import { OtoDATA } from "../../../product/ProductData";
+import { OtoDATA } from "../../../product/GoldBarsProductData";
 import { Link, navigate } from "gatsby";
 import { useAppDispatch, useAppSelector } from "../../../hooks/reduxHooks";
 import {
@@ -268,6 +268,7 @@ const OtoScreen = () => {
               <Paypal
                 orderTotal={OtoDATA[currentOtoIndex].numPrice}
                 nextPage={"/otos/EternityBand"}
+                fromOrderPage={true}
                 items={[
                   {
                     sku: OtoDATA[currentOtoIndex].sku,

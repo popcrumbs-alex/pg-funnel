@@ -4,7 +4,7 @@ import { useAppDispatch, useAppSelector } from "../../../hooks/reduxHooks";
 import {
   ProductProps,
   ProductSelectorItems,
-} from "../../../product/ProductData";
+} from "../../../product/GoldBarsProductData";
 import {
   addProductToOrder,
   selectOrderState,
@@ -122,6 +122,10 @@ const ProductSelector = () => {
 
   return (
     <Container>
+      <Row>
+        <Text style={{ fontWeight: "100" }}>Step #1: Choose Your Quantity</Text>
+      </Row>
+      <Divider />
       <Row>
         <Text>Item</Text>
         <Text>Price</Text>

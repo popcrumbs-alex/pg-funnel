@@ -12,7 +12,7 @@ import {
 import { InputSelector } from "../../../reusable/Inputs";
 import { navigate } from "gatsby";
 import LoadingSpinner from "../../loading/LoadingSpinner";
-import ProductData from "../../../product/ProductData";
+import ProductData from "../../../product/GoldBarsProductData";
 
 const Container = styled.form`
   display: flex;

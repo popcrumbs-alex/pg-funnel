@@ -244,7 +244,6 @@ const Form: FC = () => {
     }
   }, [alertState.localAlertNames, sectionRef]);
 
-  console.log("customerdata", customerData);
   return (
     <Container ref={sectionRef}>
       <Content>
@@ -272,6 +271,7 @@ const Form: FC = () => {
           <Column>
             <ColumnContent>
               <FormContainer>
+                <ProductSelector />
                 <ContactInfo
                   customerData={customerData}
                   handleInputChange={handleInputChange}
@@ -326,8 +326,7 @@ const Form: FC = () => {
                   </Text>
                 </ShippingContainer>
                 <Divider />
-                {/* Main product only one per order select */}
-                <ProductSelector />
+
                 <Divider />
                 {/*  array of selected products */}
                 <OrderSummary />
@@ -424,8 +423,7 @@ const ContactInfo = ({
 
   return (
     <FormColumn>
-      <FormHeading>Tell Us Where To RUSH Ship Your Order Via USPS</FormHeading>
-      <FormSubHeading>Step #1: Contact Information</FormSubHeading>
+      <FormSubHeading>Step #2: Contact Information</FormSubHeading>
       <Divider />
       <InputSection>
         {DATA.map((input: ContactProp, key: number) => {

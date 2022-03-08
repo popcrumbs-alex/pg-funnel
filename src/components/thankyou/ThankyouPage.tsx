@@ -135,7 +135,7 @@ const ThankyouPage = () => {
       {orderId && <CompleteOrder orderId={orderId} />}
       <Header>
         <StaticImage
-          src="../../images/lululogo.png"
+          src="../../images/pglogo.png"
           alt="ring size guide"
           placeholder="blurred"
           objectFit="contain"

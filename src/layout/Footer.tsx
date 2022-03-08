@@ -53,20 +53,7 @@ const Footer = ({ ThemeContext }: { ThemeContext: Context<Theme> }) => {
   const context = useContext<Theme>(ThemeContext);
   return (
     <Container>
-      <Content>
-        <StaticImage
-          src="../../images/lululogo.png"
-          alt="logo"
-          placeholder="blurred"
-          objectFit="contain"
-          imgStyle={{ width: "100%" }}
-        />
-        <Column>
-          <Heading color={context.text}>Need Support?</Heading>
-          <Text color={context.text}>support@lulurosecouture.com</Text>
-          <Text color={context.text}>(516) 289-9264</Text>
-        </Column>
-      </Content>
+      <Content></Content>
     </Container>
   );
 };

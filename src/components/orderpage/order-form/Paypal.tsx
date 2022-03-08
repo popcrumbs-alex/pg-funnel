@@ -11,7 +11,7 @@ import { CREATE_ORDER } from "../../../graphql/mutations/order.mutation";
 import { navigate } from "gatsby";
 import LoadingSpinner from "../../loading/LoadingSpinner";
 import { PayPalButton } from "react-paypal-button-v2";
-import ProductData from "../../../product/ProductData";
+import ProductData from "../../../product/GoldBarsProductData";
 
 // live
 const paypal_client_id =

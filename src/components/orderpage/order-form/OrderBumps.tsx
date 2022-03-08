@@ -4,7 +4,7 @@ import {
   BumpProps,
   orderBumps,
   SelectedBump,
-} from "../../../product/ProductData";
+} from "../../../product/GoldBarsProductData";
 import { useAppDispatch } from "../../../hooks/reduxHooks";
 import {
   addBumpInOrder,
